@@ -1,0 +1,56 @@
+.container{
+    width: 1800;
+    margin: 0 auto;
+    outline: 1px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+
+.holder {
+    display: flex;
+flex-wrap: wrap;
+}
+
+
+.item {
+    display: flex;
+    font-size: 250px;
+    justify-content: center;
+}
+
+
+.holder .item:nth-child(1)
+{
+    background-color: rgb(255, 60, 0);
+    order: 1;
+    flex-basis: 50%;
+}
+
+.holder .item:nth-child(2){
+    background-color: blue;
+    order: 4;
+    flex-basis: 33.3%;
+}
+
+
+.holder .item:nth-child(3){
+    background-color: purple;
+    order: 3;
+    flex-basis: 33.3%;
+}
+
+
+
+.holder .item:nth-child(4){
+    background-color: green;
+    order: 5;
+    flex-basis: 33.3%;
+}
+
+.holder .item:nth-child(5){
+    background-color: yellow;
+    order: 2;
+    flex-basis: 50%;
+}
